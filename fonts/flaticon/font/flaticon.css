@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 25/08/2018 14:33
+  	Creation date: 15/11/2018 11:43
   	*/
 
 @font-face {
@@ -24,11 +24,22 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 20px;
-font-style: normal;
-margin-left: 20px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.flaticon-charity:before { content: "\f100"; }
-.flaticon-donation-1:before { content: "\f101"; }
-.flaticon-donation:before { content: "\f102"; }
+
+.flaticon-chat-1:before { content: "\f100"; }
+.flaticon-chat:before { content: "\f101"; }
+.flaticon-speaker:before { content: "\f102"; }
+.flaticon-musical-note:before { content: "\f103"; }
+.flaticon-avatar:before { content: "\f104"; }
+.flaticon-paper-plane:before { content: "\f105"; }
