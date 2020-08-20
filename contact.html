@@ -67,8 +67,6 @@
                       <li><a href="beliefs.html">God</a></li> -->
                       <li><a href="about.html">About</a></li>
                       <li><a href="gallery.html">Gallery</a></li>
-                      <li><a href="leprocy.html">Leprocy Aid</a></li>
-                      <li><a href="intitutions.html">Intitutions</a></li>
                       <li class="active"><a href="contact.html">Contact</a></li>
                     </ul>
                   </div>
@@ -175,15 +173,6 @@
           </div>
           <div class="col-md-4 text-center">
             <div>
-              <span class="icon-clock-o text-white h2 d-block"></span>
-              <h2>Service Times</h2>
-              <p class="mb-0">Wednesdays at 6:30PM - 7:30PM <br>
-                Fridays at Sunset - 7:30PM <br>
-                Saturdays at 8:00AM - Sunset</p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div>
               <span class="icon-comments text-white h2 d-block"></span>
               <h2>Get In Touch</h2>
               <p class="mb-0">Email: thomasfmp@yahoo.com <br>
@@ -219,28 +208,6 @@
   <script src="js/mediaelement-and-player.min.js"></script>
 
   <script src="js/main.js"></script>
-
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var mediaElements = document.querySelectorAll('video, audio'),
-        total = mediaElements.length;
-
-      for (var i = 0; i < total; i++) {
-        new MediaElementPlayer(mediaElements[i], {
-          pluginPath: 'https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/',
-          shimScriptAccess: 'always',
-          success: function() {
-            var target = document.body.querySelectorAll('.player'),
-              targetTotal = target.length;
-            for (var j = 0; j < targetTotal; j++) {
-              target[j].style.visibility = 'visible';
-            }
-          }
-        });
-      }
-    });
-  </script>
 
 </body>
 
